@@ -15,21 +15,21 @@
         android:textColor="@color/white"
         android:textSize="20sp"/>
 
-    <com.andview.refreshview.XRefreshView
-        android:id="@+id/xRefreshView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        xrefreshview:isHeightMatchParent="true"
-        xrefreshview:isWidthMatchParent="true">
+    <!--<com.andview.refreshview.XRefreshView-->
+        <!--android:id="@+id/xRefreshView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--xrefreshview:isHeightMatchParent="true"-->
+        <!--xrefreshview:isWidthMatchParent="true">-->
 
-      <android.support.v7.widget.RecyclerView
-          android:id="@+id/rv"
-          android:background="#779992"
-          android:scrollbars="vertical"
-          android:layout_margin="2dp"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"/>
+      <!--<android.support.v7.widget.RecyclerView-->
+          <!--android:id="@+id/rv"-->
+          <!--android:background="#779992"-->
+          <!--android:scrollbars="vertical"-->
+          <!--android:layout_margin="2dp"-->
+          <!--android:layout_width="match_parent"-->
+          <!--android:layout_height="match_parent"/>-->
 
-    </com.andview.refreshview.XRefreshView>
+    <!--</com.andview.refreshview.XRefreshView>-->
 </LinearLayout>
